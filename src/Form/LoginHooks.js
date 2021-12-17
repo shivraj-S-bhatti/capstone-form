@@ -35,9 +35,11 @@ function LoginHooks() {
 
   return (
     <button onClick={signIn} className="button">
-      <img src="icons/google.svg" alt="google login" className="icon"></img>
+      <div style={{display:'inline-block', paddingRight:"10px"}}>
+      <img width="25px" height="25px" src="icons/google.svg" alt="google login" className="icon"></img>
+      </div>
+      <span style={{display:'inline-block'}} className="buttonText">Sign in with Google</span>
 
-      <span className="buttonText">Sign in with Google</span>
     </button>
   );
 }
