@@ -1,5 +1,7 @@
 import React from "react";
 import { Formik } from "formik";
+import LoginHooks from './LoginHooks';
+
 
 import "./Form.scss";
 
@@ -96,6 +98,11 @@ const Form = () => {
               >
                 Sign In
               </button>
+
+
+              <LoginHooks />
+
+
             </form>
           </div>
         );
